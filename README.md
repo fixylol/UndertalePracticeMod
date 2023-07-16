@@ -9,11 +9,15 @@ Download the BPS patch and use the ROM patcher of your choice ([Rom Patcher JS](
 When in the overworld, press M to open the practice menu.
 ![image](https://github.com/fixylol/UndertalePracticeMod/assets/22797315/f1686c9b-f206-435c-889a-fbe855d8e61d)
 
-The Main page contains options to enable/disable debug, savestate functionality, and (most) in-game music.
+The Main page contains options to enable/disable debug, savestate functionality, and (most) in-game music. The Stat page contains options to change your stats, such as LV, HP, EXP, Gold, or Name. The Item page lets you select from a list of every item in the game (excluding duplicates) to place into your inventory. The Misc page contains options to change file0 and undertale.ini flags, plot and fun values, and other miscellaneous features.
 
 In the overworld or battles, use Q and E to save and load savestates. To change the savestate slot, hold down P and press a number on the number row.
 
 Most vanilla debug behavior is preserved. I won't put every debug key here, but if you don't know how to use normal debug or need a refresher there is a helpful (and interesting) guide on [the Cutting Room Floor Wiki](https://tcrf.net/Undertale/Debug_Mode). I haven't touched most of the fights, but a lot of the weird/annoying overworld functions have been removed.
+
+MDS practice will warp you to the Mad Dummy room, with all the proper flags set and a punch card in your inventory. When you perform MDS, a display in the top-left corner of the screen will show whether you were early, late or on-time.
+
+This mod will automatically check this repo for updates by default. If you wish to turn this off, go to Misc > "Menu options..." > "Automatically check for updates".
 
 ### Weapon Practice
 "Practice Weapons" will open a menu for the multi-hit weapon practice mode. You can choose which boss to fight, which weapon to use, and--if applicable--your LV, whether the boss uses attacks on you, whether the boss or yourself are invincible, and your turn goal for statistics purposes.
