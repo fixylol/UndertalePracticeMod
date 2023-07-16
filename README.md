@@ -33,7 +33,7 @@ To set the rooms in which the timer will start (and optionally, end), go to "Set
 
 This project was started by Winter Storm. This README was also written by Winter Storm. This also her repo. She will stop talking about herself in the third person now this is weird.
 
-A fair amount of the menu code was written by Indyindeed. This includes the functions for the input prompts, as well as generating and drawing menu options.
+A fair amount of the menu code was written by Indyindeed. This includes the functions for the input prompts, as well as drawing menu options.
 
 This mod wouldn't exist without the original weapon practice, savestate and in-game timer mods by willyjwillyj and OceanBagel. The practice mode and in-game timer in this mod aren't their code, but it is heavily based off their designs.
 
