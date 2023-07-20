@@ -21,7 +21,7 @@ This mod will automatically check this repo for updates by default. If you wish 
 
 If you wish to give feedback, report bugs, or just want to be notified for new updates, feel free to [join my discord!](https://discord.gg/4d82wPGHau)
 
-### Weapon Practice
+## Weapon Practice
 "Practice Weapons" will open a menu for the multi-hit weapon practice mode. You can choose which boss to fight, which weapon to use, and--if applicable--your LV, whether the boss uses attacks on you, whether the boss or yourself are invincible, and your turn goal for statistics purposes.
 
 When in the weapon practice mode, press TAB to enable or disable the statistics display in the top left corner. "Score" refers to how accurate you were with each hit, comparing your average score for the session against the maximum score of the weapon you are using. "Crits"/"Quads" will compare the amount of crits (with 2-3 hit weapons) or quads (with 4 hit weapons) you've hit against the total amount of attacks in that session. Crit/Quad streak will show your current streak, as well as the maximum streak in that session. "Last pattern" shows the last pattern you've hit.
@@ -30,11 +30,23 @@ If you have boss invincibility enabled, displayed below all this will be a simul
 
 Press Q or E to change the pages. Don't worry, savestates are disabled here. On the next page there are more detailed stats of your crit/quad rate with each attack pattern of the weapon you're using.
 
-### Timer
+## Timer
 
-To enable the timer, go to "Timer Options" > "Enable timer". The timer will appear in the top left corner of the screen. To change the timer size, go down to "Timer scale" and press Z. This will increment it by 0.25, to a maximum of 2, where it will then loop back to a minimum of 0.5.
+By default, the timer can be started/ended with the Space key and reset with the G key. To change the keys used for the timer, go to "Edit hotkeys" and select each option you wish to change.
 
-To set the rooms in which the timer will start (and optionally, end), go to "Set timer start/end rooms". There are numerous presets for IL and segment practicing. If none of these apply to you, select "Custom start/end" and input the room name or ID of the rooms you want to start and end in. If you wish to never end the timer, simply put 0 or a room that you don't intend to visit during the run time. The timer will automatically reset upon setting rooms.
+If you wish to change the look of the timer, go to "Edit style". You can change the size of both timers and the splits, the font of the timers and splits, the opacity of the background, and the format the splits are displayed in.
+
+To change what the 2 timers display, look below to where it says "Timing" and "Update". "Timing" refers to what the timer reads ("Run" time, which is overall, or "Segment" time which is the specific segment if you're using splits). "Update" refers to when this timer updates, either constantly (every frame) or upon entering a room.
+
+### Defining splits
+
+This mod comes with several split presets, available in the "Presets" menu. "Midgame RTA" is Waterfall, Hotland and New Home. The rest are self-explanitory. These splits use common split times, used by runners like mrlink2k, Winter Storm (that's me!) and Shayy.
+
+If you wish to customize these splits, or make your own entirely, go to the "Edit splits" menu.
+
+To add a split, first select "Add split". A text box will appear. You can type in a room name or ID to have the timer split (or begin if it's the first split, or end if it's the last split) upon entering that room. If you wish to have it split upon entering through a specific door in that room, and you know what the global.entrance value for this room is, then you can specify that as a decimal to the room ID. Note that this decimal must have a leading 0 if it's below 10. For example, if you wish to split upon entering room 139 through entrance 2, input 139.02.
+
+You can also split upon cutscenes. This requires knowing what the ID of the cutscene object is, as well as the con value. This information can be gathered through UNDERTALE Mod Tool (or just ask around in the UNDERTALE server, I'm sure someone will be happy to help). When you have the ID and con value, input the ID as a negative number and then the con value as a decimal (and, similar to entrance values, the con value must have a leading 0 if it's below 10). The 2 examples in the presets are -1039.16 (object 1039 being the object for the Undyne Spears 2 cutscene) and -1566.04 (object 1566 being the elevator at the end of True Lab). If you wish to have Spears 2 split upon the bridge being cut, rather than the fadeout, set your Spears 2 split as -1039.10.
 
 ## Credits
 
