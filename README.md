@@ -3,6 +3,7 @@ UNDERTALE mod intended for speedrun practice.
 
 ## How to install
 Download the BPS patch and use the ROM patcher of your choice ([Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) is recommended) to apply it. Apply it to a vanilla copy of UNDERTALE v1.001 Linux, or a copy of v1.001 that has been already patched to Linux using the official speedrun.com patch file.
+*It will likely complain about the ROM file being too big. Click "Force calculate checksum", and proceed as normal.*
 ![image](https://github.com/fixylol/UndertalePracticeMod/assets/22797315/aa563c2c-561e-4157-8cad-1f02cf4c30bf)
 
 ## How to use
