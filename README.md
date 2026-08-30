@@ -1,5 +1,5 @@
 # Notice
-**This repository has been discontinued, and these versions of the Practice Mod are no longer be supported. Join the UNDERTALE Speedrunning Discord (linked on speedrun.com/undertale) and check the #rta-tools channel for the latest edition of the Practice Mod by Jean_Poilu.**
+**This repository has been discontinued, and these versions of the Practice Mod are no longer supported. Join the UNDERTALE Speedrunning Discord (linked on speedrun.com/undertale) and check the #rta-tools channel for the latest edition of the Practice Mod by Jean_Poilu.**
 #
 #
 #
