@@ -1,3 +1,8 @@
+# Notice
+**This repository has been discontinued, and these versions of the Practice Mod are no longer be supported. Join the UNDERTALE Speedrunning Discord (linked on speedrun.com/undertale) and check the #rta-tools channel for the latest edition of the Practice Mod by Jean_Poilu.**
+#
+#
+#
 # UNDERTALE Practice Mod
 UNDERTALE mod intended for speedrun practice.
 
@@ -20,7 +25,7 @@ MDS practice will warp you to the Mad Dummy room, with all the proper flags set 
 
 This mod will automatically check this repo for updates by default. If you wish to turn this off, go to Misc > "Menu options..." > "Automatically check for updates".
 
-If you wish to give feedback, report bugs, or just want to be notified for new updates, feel free to [join my discord!](https://discord.gg/4d82wPGHau)
+~~If you wish to give feedback, report bugs, or just want to be notified for new updates, feel free to join my discord!~~
 
 ## Weapon Practice
 "Practice Weapons" will open a menu for the multi-hit weapon practice mode. You can choose which boss to fight, which weapon to use, and--if applicable--your LV, whether the boss uses attacks on you, whether the boss or yourself are invincible, and your turn goal for statistics purposes.
